@@ -1,3 +1,33 @@
+body{
+    margin: 0;
+}
+.scrollPage {
+    background-color: #CF9FFF;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarSettings {
+    background-color: #13b56f;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    margin: 0;
+    padding: 0;
+}
+.navlogo h1{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.linknames{
+    font-size: 20px;
+}
+.navbar-nav{
+    border-radius: 20px;
+    
+}
+
 .title-welcome-page{
     font-family: "Dongle", sans-serif;
     font-weight: 400;
@@ -32,7 +62,8 @@
     background-color: 	#558f83;
     text-align: center;
     border-radius: 10px;
-    height: 450px;
+    min-height: 100px;
+    overflow: hidden;
 }
 .item-title{
     text-align: center;
@@ -55,3 +86,19 @@
     text-align: left;
     font-size: 30px;
 }
+.footer{
+    background-color: black;
+    width: 100%;
+}
+.links{
+    list-style: none;
+    align-items: center;
+}
+.links-part{
+    text-align: center;
+}
+a.ref:link{
+    text-decoration: none;
+    color: white;
+}
+    
